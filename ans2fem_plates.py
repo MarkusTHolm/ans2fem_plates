@@ -1,6 +1,6 @@
 import os
 
-# Print files in current directory
+# Print .cdb files in current directory
 print("List of .cdb files in the current directory:")
 files = [f for f in os.listdir('.') if os.path.isfile(f)]
 cdb_flag = 0
@@ -125,7 +125,7 @@ for i, line in enumerate(lines):
     
         data["SFE"] = surface_loads
 
-# Store nodal boundary conditions
+# Store nodal boundary conditions and section data
 data["D"] = ndisp
 data["F"] = nforce
 data["SECDATA"] = secdata
