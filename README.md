@@ -18,6 +18,6 @@ To rebuild the executable follow these steps ($ means run in terminal/command wi
     $ python -m PyInstaller --onefile .\ans2fem_plates.py
 
 
-One obvious drawback is that the code only supports one material and there are other hardcoded parameters. So, the intention is that YOU add the missing features. Note, the .cdb files are essentially plane .txt files so they are fairly easy to read and decipher.
+One obvious drawback is that the code only supports one material and there are other hardcoded parameters. So, the intention is that YOU add the missing features. Note, the .cdb files are essentially plain .txt files so they are fairly easy to read and decipher.
 
 
