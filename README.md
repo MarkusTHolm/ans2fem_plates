@@ -4,7 +4,7 @@
 
 This folder contains a PROTOTYPE version of ans2fem in Python (so it should be easy to modify). Note, the script is only tested for ANSYS 2022R2 in the gBar (using thinlinc).
 
-The folder also contains two .cdb so you can test the script (e.g. run the resulting .fem file in ANSYS and verify that it works).
+The folder also contains two .cdb so you can test the script (e.g. by running the resulting .fem file in ANSYS and verify that it works).
 
 ## Modifying the script
 If you make modifications to the file you need to rebuild the executatable (or run it directly as a python script):
