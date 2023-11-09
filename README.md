@@ -7,7 +7,7 @@ This folder contains a PROTOTYPE version of ans2fem in Python (so it should be e
 The folder also contains two .cdb so you can test the script (e.g. by running the resulting .fem file in ANSYS and verify that it works).
 
 ## Modifying the script
-If you make modifications to the file you need to rebuild the executatable (or run it directly as a python script):
+If you make modifications to the script you need to rebuild the executatable (or run it directly as a python script):
 
 To rebuild the executable follow these steps ($ means run in terminal/command window):
 1. Install pyinstaller: \
